@@ -8,8 +8,8 @@ create table if not exists public.allowed_couple_users (
 );
 
 insert into public.allowed_couple_users(email) values
-  ('CAMBIA_ESTO_TU_CORREO@ejemplo.com'),
-  ('CAMBIA_ESTO_SU_CORREO@ejemplo.com')
+  ('sonrisadepuma@gmail.com'),
+  ('albmart15@gmail.com')
 on conflict (email) do nothing;
 
 create table if not exists public.couple_state (
